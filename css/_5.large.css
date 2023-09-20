@@ -1,5 +1,42 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+    /* Main navigation - large devices  */
+    #main-nav .nav-item.current {
+        border-left: none;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: -2px;
+        margin-right: -2px;
+    }
+    #main-nav .current a {
+        color: #fff;
+        border: 2px solid var(--yellow);
+        padding-top: 0.281rem;
+        padding-bottom: 0.281rem;
+    }
+    #main-nav .nav-item {
+        border: none;
+        padding: 0.5rem 0.25rem;
+       
+    }
+    #main-nav .nav-link::after {
+        content: ' ';
+        display: block;
+        height: 50%;
+        width: 3px;
+        background-color: var(--yellow);
+    }
+
+    #main-nav .divider {
+        background-color: var(--yellow);
+        display: block;
+        width: 2px;
+        height: 16px;
+    }
+
+    #main-nav .divider:last-of-type {
+        display: none;
+    }
 
 }
