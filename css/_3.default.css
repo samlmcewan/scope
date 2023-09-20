@@ -142,10 +142,8 @@ nav .breadcrumb a {
     .top-contact {
         color: var(--yellow);
     }
-    .top-contact  .top-phone {
-        font-size: 1.25rem;
+    .top-contact  p {
+        font-size: 0.875rem;
     }
     
-    .top-contact  .top-mail {
-        font-size: 1rem;
-    }
+    
