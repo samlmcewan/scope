@@ -1,7 +1,19 @@
 /* Extra large devices (large desktops, 1400px and up) */
 
 @media only screen and (min-width: 1400px) {
-   
+   /* Hero Home  */
+   .hero-home h1 {
+    font-size: 8rem;
+    line-height: 6rem;
+}
+
+.hero-home h1 span {
+    font-size: 5.07rem;
+}
+
+.hero-home p {
+    font-size: 1.25rem;
+}
 }
         
         

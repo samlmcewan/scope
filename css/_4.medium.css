@@ -1,5 +1,12 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    
-}
+    #main-nav .nav-item {
+        padding-left: .5rem;
+    }
+    #main-nav .nav-item.current {
+        border-left: 0;
+        padding-left: 0.5rem;
+    }
+   
+    }

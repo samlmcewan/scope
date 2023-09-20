@@ -39,4 +39,18 @@
         display: none;
     }
 
+    /* Hero Home  */
+    .hero-home h1 {
+        font-size: calc(8rem*.9);
+        line-height: calc(6rem*.9);
+    }
+
+    .hero-home h1 span {
+        font-size: calc(5.07rem*.9);
+    }
+
+    .hero-home p {
+        font-size: calc(1.25rem*.9);
+    }
+    
 }

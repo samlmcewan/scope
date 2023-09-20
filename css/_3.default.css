@@ -3,12 +3,19 @@
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-weight: 700;
+}
 .btn-primary {
     background-color: #ffffff;
     border-radius: 0;
     border: thin solid var(--yellow);
     color: var(--navy);
     text-transform: uppercase;
+    font-size: 1.25rem;
 }
 
 /*--------------------------------------------------------------
@@ -19,8 +26,9 @@
 }
 
     #main-nav .nav-item {
-        padding: 0.5rem 0.75rem;
-        padding-left: 1rem;
+        padding: 0.25rem 0.75rem;
+        /* padding-left: 1rem; */
+       
     }
 
     #main-nav .nav-link {
@@ -41,11 +49,18 @@ nav .breadcrumb a {
 }
 
 #main-nav .nav-item.current {
-    border-left: 3px solid var(--yellow);
-    padding-left: calc(1rem - 3px);
+    /* border-left: 3px solid var(--yellow);
+    padding-left: calc(1rem - 3px); */
+    padding-top: 0;
 }
     #main-nav .current a {
         color: var(--yellow);
+        border-bottom: 3px solid var(--yellow);
+        width: fit-content;
+        padding-bottom: .25rem;
+        padding-top: 0;
+         /* margin-bottom: .75rem; */
+
     }
 
 #main-nav .nav-item {
@@ -163,15 +178,14 @@ nav .breadcrumb a {
 
 .hero-home h1 {
     color: #ffffff;
-    font-size: 5rem;
-    font-weight: 700;
-    line-height: 4rem;
+    font-size: 4rem;
+    line-height: 3rem;
     text-transform: uppercase;
 }
 
 .hero-home h1 span {
     color: var(--yellow);
-    font-size: 3.7rem;
+    font-size: 2.53rem;
     font-weight: 300;
     text-transform:capitalize; 
 }
@@ -182,11 +196,59 @@ nav .breadcrumb a {
 }
 
 .hero-home .btn-primary {
-    border: none;
+    font-weight: 500;
+    border: 2px solid var(--navy);
     padding-right: 0;
     width: fit-content;
 }
 
 .hero-home .btn-primary svg {
     width: 90px;
+}
+
+.hero-home .btn-primary:hover {
+    background-color: var(--navy);
+    border: 2px solid var(--yellowLight);
+}
+
+.hero-home .hero-img-container {
+    width: fit-content;
+    position: relative;
+}
+
+.hero-home .hero-img {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    max-width: 100%;
+   
+}
+
+.hero-home .hero-square-navy {
+    background-color: var(--navy);
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);                                 
+}
+
+.hero-home .hero-img-square {
+    background-color: var(--teal);
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-home .hero-img-outline {
+    border: 2px solid var(--yellow);
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
