@@ -3,7 +3,13 @@
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-
+.btn-primary {
+    background-color: #ffffff;
+    border-radius: 0;
+    border: thin solid var(--yellow);
+    color: var(--navy);
+    text-transform: uppercase;
+}
 
 /*--------------------------------------------------------------
 # Main Navigation
@@ -147,3 +153,40 @@ nav .breadcrumb a {
     }
     
     
+/*--------------------------------------------------------------
+# Hero Home
+--------------------------------------------------------------*/
+
+.hero-home {
+    background-color: var(--navy);
+}
+
+.hero-home h1 {
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.hero-home h1 span {
+    color: var(--yellow);
+    font-size: 3.7rem;
+    font-weight: 300;
+    text-transform:capitalize; 
+}
+
+.hero-home p {
+    color: #ffffff;
+    font-style: italic;
+}
+
+.hero-home .btn-primary {
+    border: none;
+    padding-right: 0;
+    width: fit-content;
+}
+
+.hero-home .btn-primary svg {
+    width: 90px;
+}
