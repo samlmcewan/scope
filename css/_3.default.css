@@ -9,6 +9,9 @@ body {
 h1 {
     font-weight: 700;
 }
+h2 {
+    font-size: 2.53rem;
+}
 .btn-primary {
     background-color: #ffffff;
     border-radius: 0;
@@ -251,4 +254,39 @@ nav .breadcrumb a {
     top: 50%;  
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services h2 {
+font-weight: 500;
+font-size: 2.25rem;
+}
+.services h2 span {
+    display: block;
+    font-weight: 300;
+}
+.services .container-fluid {
+    background-color: var(--yellow);   
+}
+
+.services .service-container {
+    position: relative;
+    width: 100%;
+}
+.services img {
+    height: 400px;
+}
+
+.services .service-text {
+    /* position: absolute;
+    top: 50%; */
+}
+.services .img-container {
+
+}
+
+.services .img-container img {
+
 }

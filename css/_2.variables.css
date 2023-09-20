@@ -2,7 +2,8 @@
 
 :root {
     --navy: #0C143A;
-    --yellow: #E1B921;
+    /* --yellow: #E1B921; */
+    --yellow: #FFCF01;
     --yellowLight: #FFFBF0;
     --teal: #003A58;
 }
