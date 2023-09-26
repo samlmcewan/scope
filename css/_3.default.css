@@ -20,7 +20,9 @@ h2 {
     text-transform: uppercase;
     font-size: 1.25rem;
 }
-
+.section {
+    overflow-x: hidden;
+}
 /*--------------------------------------------------------------
 # Main Navigation
 --------------------------------------------------------------*/
@@ -268,25 +270,80 @@ font-size: 2.25rem;
     font-weight: 300;
 }
 .services .container-fluid {
-    background-color: var(--yellow);   
+    background-color: var(--yellow);  
+    background-image: url("/media/services.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 5rem;
 }
 
-.services .service-container {
+.services .row {
+    position: relative;
+}
+
+/* .services .service-container {
     position: relative;
     width: 100%;
-}
+} */
 .services img {
-    height: 400px;
+    /* height: 400px; */
+    position: absolute;
+    right: 0;
 }
 
 .services .service-text {
     /* position: absolute;
     top: 50%; */
-}
-.services .img-container {
-
+    z-index: 1;
 }
 
-.services .img-container img {
+.services .service {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 5rem;
+}
 
+.services .service-square {
+    background-color: var(--navy);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);   
+}
+
+.services .service-square-text {
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.services .service-square-text h2 {
+    color: #ffffff;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.services .service-square-text span {
+    display: block;
+}
+
+.services-container {
+    margin-top: 2.3rem;
+}
+
+/* Stagger on mobile  */
+
+.services .service:nth-of-type(odd) {
+    margin-left: -7rem;
+    margin-top: -7rem;
+    margin-bottom: -2rem;
+}
+
+.services .service:nth-of-type(even) {
+    margin-right: -7rem;
 }

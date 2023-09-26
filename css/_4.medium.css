@@ -8,5 +8,33 @@
         border-left: 0;
         padding-left: 0.5rem;
     }
-   
+/* Services medium devices  */
+    .services .services-container {
+        margin-top: -55px;
+    }
+
+    .services .service, .services .service:nth-of-type(odd), .services .service:nth-of-type(even) {
+        margin: 0;
+    }
+
+    .services .service {
+        height: 105px;
+        width: 105px;
+    }
+
+    .services .service-square-text h2 {
+        font-size: 1rem;
+    }
+
+    .services .container {
+        max-width: 95%;
+    }
+
+    .services .container-fluid {
+        background-size: 35%;
+        height: 35vh;
+    }
+   .services h2 {
+    font-size: 2.75rem;
+   }
     }

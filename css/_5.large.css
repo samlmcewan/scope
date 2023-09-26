@@ -53,5 +53,19 @@
     .hero-home p {
         font-size: calc(1.25rem*.9);
     }
+    /* Services large  */
+
+    .services .container-fluid {
+        height: 63vh;
+        background-size: 30%;
+    }
+
+    .services .container-fluid .row {
+        width: 100%;
+    }
+
+    .services h2 {
+        font-size: 3rem;
+    }
     
 }
