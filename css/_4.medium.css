@@ -37,4 +37,10 @@
    .services h2 {
     font-size: 2.75rem;
    }
+
+   /* How we can help */
+.help h2 {
+    font-size: 4rem;
+    line-height: 4rem;
+}
     }

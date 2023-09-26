@@ -82,4 +82,10 @@
     .services .service-square-text h2 {
         font-size: 1.25rem;
     }
+
+    /* How we can help Large */
+    .help h2 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
 }
