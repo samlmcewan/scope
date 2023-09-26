@@ -67,5 +67,19 @@
     .services h2 {
         font-size: 3rem;
     }
+    .services .services-container {
+        margin-top: -75px;
+    }
     
+    .services .container {
+        max-width: 95%;
+    }
+    .services .service {
+        height: 150px;
+        width: 150px;
+    }
+
+    .services .service-square-text h2 {
+        font-size: 1.25rem;
+    }
 }
