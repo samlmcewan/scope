@@ -173,10 +173,11 @@ nav .breadcrumb a {
 
 
     /* Phone and email  */
-    .top-contact {
+    .top-contact a {
         color: var(--yellow);
+        text-decoration: none;
     }
-    .top-contact  p {
+    .top-contact  a {
         font-size: 0.875rem;
     }
     
@@ -629,4 +630,6 @@ footer .fa-chevron-right {
 
 .sub-footer .container {
     padding: 1rem;
+    
 }
+
