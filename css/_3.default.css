@@ -430,3 +430,27 @@ h2.section-title-large {
     color: var(--tealLight);
     text-transform: uppercase;
 }
+
+/* Get in touch  */
+.get-in-touch .details h3, .get-in-touch .details p {
+    margin-bottom: 0;
+}
+
+.get-in-touch .details h3 {
+    color: var(--yellow);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.details-container {
+    width: fit-content;
+}
+
+.pt-04 {
+    padding-top: 0.15rem;
+}
+
+.get-in-touch .section-title-large {
+    font-size: 3.5rem;
+}
