@@ -5,6 +5,7 @@
 --------------------------------------------------------------*/
 body {
     font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
 }
 h1 {
     font-weight: 700;
@@ -394,4 +395,38 @@ font-size: 2.25rem;
 .newsletter form input[type="submit"]:hover {
     background-color: var(--navy);
     color: var(--yellow);
+}
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+h2.section-title-large {
+    font-size: 4rem;
+}
+.blog .card {
+    background-color: var(--yellowLight);
+    border: 2px solid var(--yellowLight);
+    padding: 1rem;
+}
+
+.blog .card .card-img-top {
+    padding-bottom: 1rem;
+}
+
+.blog a.card {
+    text-decoration: none;
+    color: var(--navy);
+}
+
+.blog .card h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+
+.blog .card .teal {
+    color: var(--tealLight);
+    text-transform: uppercase;
 }
