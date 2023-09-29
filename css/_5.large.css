@@ -101,4 +101,20 @@
     .blog .card .card-img-top {
         padding-bottom: 1.75rem;
     }
+
+    /* Footer - Large Devices */
+    
+    footer ul li a:hover .fa-chevron-right {
+        animation: arrow-right 0.3s linear forwards; 
+              
+          }
+      
+      @keyframes arrow-right {
+        from {
+          transform: translateX(0px); }
+        to {
+          transform: translateX(3px); } 
+          
+      }
+      
 }
