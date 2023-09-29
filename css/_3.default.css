@@ -24,6 +24,9 @@ h2 {
     background-color: var(--navy);
     border-color: var(--yellow);
 }
+.btn-primary:active, .btn-primary:focus {
+    background-color: var(--teal)!important;
+}
 .section {
     overflow-x: hidden;
 }
@@ -363,4 +366,32 @@ font-size: 2.25rem;
 --------------------------------------------------------------*/
 .newsletter {
     background-color: var(--navy);
+}
+
+.newsletter h2 {
+    color: #ffffff;
+}
+
+.newsletter form input {
+    padding: 1rem 1.75rem;
+    border-radius: 50px;
+    border: 2px solid var(--navy);
+    color: var(--navy);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.newsletter form input::placeholder {
+    color: var(--navy);
+}
+
+.newsletter form input[type="submit"] {
+    background-color: var(--yellow);
+    text-transform: uppercase;
+}
+
+
+.newsletter form input[type="submit"]:hover {
+    background-color: var(--navy);
+    color: var(--yellow);
 }
