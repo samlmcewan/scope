@@ -56,15 +56,7 @@
   
     /* Footer - Medium devices */
     
-    footer  .nes-logo {
-        padding-top: 0;
-    }
-    footer .nes-logo-top {
-    width: 84px;
-}
-    footer .nes-logo a {
-        float: right;
-    }
+   
     
     .shfooter .collapse {
     display: block;
